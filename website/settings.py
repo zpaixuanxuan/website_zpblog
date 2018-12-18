@@ -58,8 +58,7 @@ ROOT_URLCONF = 'website.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')]
-        ,
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -137,3 +136,5 @@ MEDIA_URL = '/media/'
 
 CLIENT_ID = 3132345160
 APP_SECRET = '7ad14c18asefde2a59bc3fb07cd8dc2a'
+
+
